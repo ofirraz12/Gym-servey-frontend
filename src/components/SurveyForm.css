@@ -1,0 +1,132 @@
+/* 
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     GLOBAL / PAGE STYLING
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+body {
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4; /* Light gray background */
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  h2, label {
+    direction: rtl; /* Ensures Hebrew text aligns properly (right-to-left) */
+  }
+  
+  /* 
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       SURVEY FORM CONTAINER
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  */
+  .survey-form-container {
+    max-width: 40vh;
+    margin: 40px auto;
+    background: #ffffff; /* Clean white background */
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    direction: rtl; /* Hebrew text direction */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title Styling */
+  .survey-form-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  /* 
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       FORM ELEMENTS
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  */
+  
+  /* Label Styling */
+  .survey-form-container label {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Text Fields & Textarea */
+  .survey-form-container input[type="text"],
+  .survey-form-container input[type="email"],
+  .survey-form-container textarea {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 1rem;
+    color: #333;
+    background: #fafafa;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+  }
+  
+  /* Checkbox Styling */
+  .survey-form-container input[type="checkbox"] {
+    margin-right: 0.5rem;
+    transform: scale(1.2); /* Slightly bigger for better visibility */
+    cursor: pointer;
+  }
+  
+  /* 
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       SUBMIT BUTTON
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  */
+  .survey-form-container button {
+    display: block;
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background: #d32f2f; /* Gym-inspired red */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .survey-form-container button:hover {
+    background: #b71c1c; /* Darker red on hover */
+  }
+  
+  /* 
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       RESPONSIVE DESIGN
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  */
+  @media screen and (max-width: 480px) {
+    .survey-form-container {
+      padding: 20px;
+      margin: 20px auto;
+    }
+  
+    .survey-form-container h2 {
+      font-size: 1.5rem;
+    }
+  
+    .survey-form-container label {
+      font-size: 0.95rem;
+    }
+  
+    .survey-form-container input[type="text"],
+    .survey-form-container input[type="email"],
+    .survey-form-container textarea {
+      font-size: 0.95rem;
+    }
+  
+    .survey-form-container button {
+      font-size: 1rem;
+    }
+  }
+  
