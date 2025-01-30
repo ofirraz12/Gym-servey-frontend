@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Gym-servey-frontend/static/css/main.4da7fce4.css",
+    "main.js": "/Gym-servey-frontend/static/js/main.f0c32372.js",
+    "index.html": "/Gym-servey-frontend/index.html",
+    "main.4da7fce4.css.map": "/Gym-servey-frontend/static/css/main.4da7fce4.css.map",
+    "main.f0c32372.js.map": "/Gym-servey-frontend/static/js/main.f0c32372.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4da7fce4.css",
+    "static/js/main.f0c32372.js"
+  ]
+}
