@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Gym-servey-frontend/static/css/main.4da7fce4.css",
-    "main.js": "/Gym-servey-frontend/static/js/main.f0c32372.js",
+    "main.js": "/Gym-servey-frontend/static/js/main.adc49cdb.js",
     "index.html": "/Gym-servey-frontend/index.html",
     "main.4da7fce4.css.map": "/Gym-servey-frontend/static/css/main.4da7fce4.css.map",
-    "main.f0c32372.js.map": "/Gym-servey-frontend/static/js/main.f0c32372.js.map"
+    "main.adc49cdb.js.map": "/Gym-servey-frontend/static/js/main.adc49cdb.js.map"
   },
   "entrypoints": [
     "static/css/main.4da7fce4.css",
-    "static/js/main.f0c32372.js"
+    "static/js/main.adc49cdb.js"
   ]
 }
