@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./SurveyForm.css"; // קובץ העיצוב
 
+const SERVER_URL = process.env.SERVER_URL || "http://localhost:5000/api"
+
 const SurveyForm = () => {
   const [formData, setFormData] = useState({
     age: "",
@@ -26,7 +28,7 @@ const SurveyForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://192.168.68.61:5000/api/survey/submit", formData);
+      await axios.post(`${SERVER_URL}/survey/submit`, formData);
       alert("הסקר נשלח בהצלחה!");
       setFormData({
         age: "",
